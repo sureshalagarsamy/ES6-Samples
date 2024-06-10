@@ -23,7 +23,7 @@ console.log(newEmployeeList);
 ```javascript
 const first = "SURESH";
 const last = "A";
-console.log(`(${first} ${last})`);
+console.log(`(${first} ${last})`); // (SURESH A)
 ```
 
 * Multi-line strings
