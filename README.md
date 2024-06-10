@@ -5,7 +5,7 @@
 ```javascript
 var employeeList = [{id:'1', name:'A'},{id:'2', name:'B'}];
 var isPermanent = {flag:true};
-var newEmployeeList = ids.map((eachObj) => ({...eachObj, ...isPermanent}));
+var newEmployeeList = employeeList.map((eachObj) => ({...eachObj, ...isPermanent}));
 console.log(newEmployeeList);
 ```
 
